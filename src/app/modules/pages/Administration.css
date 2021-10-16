@@ -1,0 +1,62 @@
+.box-section {
+    margin-bottom: 20px;
+    display: block;
+}
+.box-section .section-details {
+    float: left;
+    display: block;
+    margin-right: 5.30398%;
+    width: 21.02202%;
+}
+@media screen and (max-width: 720px) {
+    .box-section .section-details .section-title {
+        font-size: .75em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #3D4043;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D9DDE3;
+        padding-bottom: 5px;
+    }
+    .box-section .section-details {
+        float: left;
+        display: block;
+        margin-right: 8.17271%;
+        width: 100%;
+    }
+}
+.box-section .section-main:last-child {
+    margin-right: 0;
+}
+.box-section .section-main {
+    float: left;
+    display: block;
+    margin-right: 5.30398%;
+    width: 73.67401%;
+}
+.box-controls {
+    text-align: right;
+    box-shadow: inset 0 1px 0 white;
+    background: #f8f9fa;
+    margin-top: 20px;
+    padding: 15px 25px;
+}
+.daticon-list {
+    margin: 0;
+    margin-left: -5px;
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+}
+.daticon-list li {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.form-label {
+    font-size: .6875em;
+    color: #AEB4BE;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: left;
+}

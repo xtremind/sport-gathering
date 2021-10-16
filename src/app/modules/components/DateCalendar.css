@@ -1,0 +1,53 @@
+.daticon {
+    box-shadow: 0 0 0 1px rgb(217 221 227 / 50%);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 10px;
+    width: 54px;
+    text-align: center;
+    position: relative;
+    cursor: default;
+    background: white;
+}
+.daticon .dow {
+    font-size: 8px;
+    margin-top: -12px;
+    background: white;
+    color: #AEB4BE;
+    margin-bottom: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.daticon .day {
+    font-size: 20px;
+    font-weight: normal;
+    color: #E55A84;
+    line-height: 20px;
+}
+.daticon .month {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.daticon .count {
+    text-align: center;
+    border: 0;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -7.2px;
+    right: -7.2px;
+    border-radius: 100%;
+    font-weight: bold;
+    display: inline-block;
+    background: #bcc3cd;
+    color: white;
+    font-size: 9px;
+    line-height: 18px;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+.daticon .count.top {
+    background: #FF5D5D;
+}

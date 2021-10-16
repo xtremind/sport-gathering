@@ -1,3 +1,10 @@
+# TODO :
+
+- finish design
+- connect to custom api or doodle api
+- export data
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
